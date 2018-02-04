@@ -1,1 +1,8 @@
-/*Only use this file if you want to override bootstrap or create your own style*/
+.bg{
+    background: #EEE8AA
+}
+
+/* .container-fluid{
+    display: flex;
+    justify-content: center
+} */

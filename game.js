@@ -33,6 +33,17 @@ function kick() {
     }
 }
 
+function kamehameha() {
+    //for loop i, arr, ellem
+    for (let i = 0; i <= 0; i += 9100) {
+        const element = kick[i];
+        health -= 9100
+        hits++
+        // console.log("kamehameha! " + health, hits)
+        update()
+    }
+}
+
 
 function update() {
     document.getElementById("health").innerHTML = health

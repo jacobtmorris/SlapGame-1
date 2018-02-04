@@ -11,31 +11,44 @@
 	<link rel="stylesheet" href="game.css">
 </head>
 
-<body>
-	<div class="container-fluid">
+<body class="bg">
+	<div class="container-fluid text-center m-5">
 		<div class="row">
 			<div class="col-sm-12">
-				<img src="http://www.stickpng.com/assets/images/5845e1677733c3558233c0ee.png" alt="Grumpy Cat" height="200px" width="200px">
+				<img src="https://vignette.wikia.nocookie.net/marvelcrossroads/images/5/59/Frieza_%28Earth-890%29.png/revision/latest?cb=20151013162155"
+				 alt="Frieza from Dragon Ball Z" height="400px" width="400px">
 			</div>
-			<!-- START BUTTONS-->
-			<div>
-				<button onclick="slap()">
-					Slap
-				</button>
-				<button onclick="punch()">
-					Punch
-				</button>
-				<button onclick="kick()">
-					Kick
-				</button>
-			</div>
-			<div>
-				<span>Health:
-					<span id="health">__</span>
-					Hits:
-					<span id="hits">__</span>
+			<!-- START HEALTH/HITS -->
+			<div class="col-sm-12">
+				<span>
+					<p>
+						Health:
+						<span id="health">__</span>
+						Hits:
+						<span id="hits">__</span>
+					</p>
 				</span>
 			</div>
+			<!-- END HEALTH/HITS -->
+			<!-- START BUTTONS-->
+			<div class="col-sm-12">
+				<section>
+					<button onclick="slap()">
+						Slap
+					</button>
+					<button onclick="punch()">
+						Punch
+					</button>
+					<button onclick="kick()">
+						Kick
+					</button>
+					<br>
+					<button onclick="kamehameha()">
+						KAMEHAMEHAAA!!!
+					</button>
+				</section>
+			</div>
+			<!-- END BUTTONS -->
 			</row>
 		</div>
 		<script src="game.js"></script>
