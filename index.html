@@ -1,12 +1,45 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Slap Object Game</title>
-	<link rel="stylesheet" href="">
-	<link rel="stylesheet" href="">
-	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Slap Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="game.css">
 </head>
+
 <body>
-	
-	<script src="game.js"></script>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<img src="http://www.stickpng.com/assets/images/5845e1677733c3558233c0ee.png" alt="Grumpy Cat" height="200px" width="200px">
+			</div>
+			<!-- START BUTTONS-->
+			<div>
+				<button onclick="slap()">
+					Slap
+				</button>
+				<button onclick="punch()">
+					Punch
+				</button>
+				<button onclick="kick()">
+					Kick
+				</button>
+			</div>
+			<div>
+				<span>Health:
+					<span id="health">__</span>
+					Hits:
+					<span id="hits">__</span>
+				</span>
+			</div>
+			</row>
+		</div>
+		<script src="game.js"></script>
 </body>
+
+
 </html>
